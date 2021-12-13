@@ -14,7 +14,8 @@
     "bootstrap": "yarn && lerna run prepublishOnly",
     "deploy-docs": "yarn build && yarn --cwd ./www && GIT_USER=jquense yarn --cwd ./www deploy",
     "build": "lerna run build",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "release-from-package": "lerna publish from-package"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",

@@ -1,5 +1,5 @@
 {
-  "name": "react-widgets-tailwind",
+  "name": "@danielmackenzie8/react-widgets-tailwind",
   "version": "1.1.2",
   "main": "lib/index.js",
   "module": "lib/es/index.js",
